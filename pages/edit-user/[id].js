@@ -90,7 +90,7 @@ export default function EditUserPage() {
                 <div className="mb-3">
                   <input
                     type="text"
-                    className="form-control bg-transparent text-white"
+                    className="form-control bg-transparent"
                     id="name"
                     name="name"
                     placeholder="Enter your name"
@@ -103,7 +103,7 @@ export default function EditUserPage() {
                 <div className="mb-3">
                   <input
                     type="email"
-                    className="form-control bg-transparent text-white"
+                    className="form-control bg-transparent"
                     id="email"
                     name="email"
                     placeholder="Email"
@@ -116,7 +116,7 @@ export default function EditUserPage() {
                 <div className="mb-3">
                   <input
                     type="password"
-                    className="form-control bg-transparent text-white"
+                    className="form-control bg-transparent"
                     id="password"
                     name="password"
                     value={password}
@@ -129,7 +129,7 @@ export default function EditUserPage() {
                 <div className="mb-3">
                   <input
                     type="password"
-                    className="form-control bg-transparent text-white"
+                    className="form-control bg-transparent"
                     id="confirmPassword"
                     name="confirmPassword"
                     placeholder="Confirm Password"

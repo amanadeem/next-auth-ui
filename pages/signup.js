@@ -111,7 +111,7 @@ const Signup = () => {
               <div className="mb-3">
                 <input
                   type="text"
-                  className={`form-control p-3 fs-5 bg-transparent text-white ${
+                  className={`form-control p-3 fs-5 bg-transparent ${
                     nameError ? "is-invalid" : ""
                   }`}
                   id="name"
@@ -125,7 +125,7 @@ const Signup = () => {
               <div className="mb-3">
                 <input
                   type="email"
-                  className={`form-control p-3 fs-5 bg-transparent text-white ${
+                  className={`form-control p-3 fs-5 bg-transparent  ${
                     emailError ? "is-invalid" : ""
                   }`}
                   id="email"
@@ -139,7 +139,7 @@ const Signup = () => {
               <div className="mb-3">
                 <input
                   type="password"
-                  className={`form-control p-3 fs-5 bg-transparent text-white ${
+                  className={`form-control p-3 fs-5 bg-transparent  ${
                     passwordError ? "is-invalid" : ""
                   }`}
                   id="password"
@@ -155,7 +155,7 @@ const Signup = () => {
               <div className="mb-3">
                 <input
                   type="password"
-                  className={`form-control p-3 fs-5 bg-transparent text-white ${
+                  className={`form-control p-3 fs-5 bg-transparent  ${
                     confirmPasswordError ? "is-invalid" : ""
                   }`}
                   id="confirmPassword"

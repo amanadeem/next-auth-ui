@@ -84,7 +84,7 @@ const Login = () => {
               <div className="mb-3">
                 <input
                   type="email"
-                  className="form-control p-3 fs-5 bg-transparent text-white"
+                  className="form-control p-3 fs-5 bg-transparent"
                   id="email"
                   placeholder="Enter Email"
                   value={email}
@@ -96,7 +96,7 @@ const Login = () => {
               <div className="mb-3">
                 <input
                   type="password"
-                  className="form-control p-3 fs-5 bg-transparent text-white"
+                  className="form-control p-3 fs-5 bg-transparent"
                   id="password"
                   placeholder="Enter Password"
                   value={password}

@@ -121,7 +121,7 @@ export default function DashboardPage() {
           </div>
         </div>
       </nav>
-      <div className="card text-center bg-transparent p-5 text-white shadow-lg">
+      <div className="card text-center bg-transparent p-5 shadow-lg">
         <div className="card-header">Featured</div>
         <div className="card-body">
           <h5 className="card-title">Special title treatment</h5>
